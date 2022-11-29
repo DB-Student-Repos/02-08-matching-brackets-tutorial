@@ -22,7 +22,7 @@ def is_paired(input_string):
                     del test[-1]
                 else:
                     return False
-          elif (ch == ")") or (ch == "]") or (ch == "}"):
+        elif (ch == ")") or (ch == "]") or (ch == "}"):
             return False
     if len(test) == 0:
         return True
