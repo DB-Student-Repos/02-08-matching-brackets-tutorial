@@ -21,6 +21,10 @@ def is_paired(input_string):
                 del test[-1]
             else:
                 return False
+    if len(test) == 0:
+        return True
+    else:
+        return False
             
             
             
