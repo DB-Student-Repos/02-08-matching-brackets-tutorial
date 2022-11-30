@@ -3,9 +3,7 @@
 
 def is_paired(input_string):
     test = []
-    mydict["("] = ")"
-    mydict["["] = "]"
-    mydict["{"] = "}"
+    mydict = {"[":"]", "(":")", "{":"}"}
     for ch in input_string:
         if (ch in "([{"):
             test.append(ch)
